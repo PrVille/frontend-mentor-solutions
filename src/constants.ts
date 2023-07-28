@@ -49,7 +49,7 @@ export const challenges: Challenge[] = [
       "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.",
     demoHref:
       "https://frontendmentor-nft-preview-card-component-pi.vercel.app/",
-    imgSrc: "./src/images/nft-preview-card-component.jpg",
+    imgSrc: "./nft-preview-card-component.jpg",
   },
   {
     title: "QR code component",
@@ -58,6 +58,6 @@ export const challenges: Challenge[] = [
     description:
       "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
     demoHref: "https://frontendmentor-prville-qr-code-component.vercel.app/",
-    imgSrc: "./src/images/qr-code-component.jpg",
+    imgSrc: "./qr-code-component.jpg",
   },
 ]
