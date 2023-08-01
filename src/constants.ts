@@ -47,7 +47,8 @@ export const challenges: Challenge[] = [
     level: Level.Junior,
     description:
       "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
-    demoHref: "https://newsletter-sign-up-with-success-message-self.vercel.app/",
+    demoHref:
+      "https://newsletter-sign-up-with-success-message-self.vercel.app/",
     imgSrc: "./newsletter-sign-up-form-with-success-message.jpg",
     tags: ["react", "tailwind-css", "typescript", "vite"],
   },

@@ -4,7 +4,7 @@ type TagsProps = {
 
 const Tags = ({ tags }: TagsProps) => {
   return (
-    <div className="flex py-2 gap-x-3 flex-wrap mb-2">
+    <div className="flex gap-x-3 flex-wrap">
       {tags.map((tag, index) => (
         <div key={index}>
           <p className="text-tag">{"#" + tag}</p>

@@ -9,7 +9,7 @@ const Image = ({ href, src }: ImageProps) => {
       <a href={href} target="_blank" rel="noopener">
         <img
           src={src}
-          className="object-cover hover:scale-110 transition-all"
+          className="object-cover hover:scale-110 transition-all duration-300"
         />
       </a>
     </div>
