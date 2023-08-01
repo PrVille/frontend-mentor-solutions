@@ -42,6 +42,16 @@ export const levelMap = {
 
 export const challenges: Challenge[] = [
   {
+    title: "Newsletter sign-up form with success message",
+    languages: [Language.Html, Language.Css, Language.Js],
+    level: Level.Junior,
+    description:
+      "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
+    demoHref: "https://newsletter-sign-up-with-success-message-self.vercel.app/",
+    imgSrc: "./newsletter-sign-up-form-with-success-message.jpg",
+    tags: ["react", "tailwind-css", "typescript", "vite"],
+  },
+  {
     title: "NFT preview card component",
     languages: [Language.Html, Language.Css],
     level: Level.Newbie,

@@ -12,7 +12,7 @@ type ChallengeProps = {
 
 const Challenge = ({ challenge }: ChallengeProps) => {
   return (
-    <div className="bg-white flex flex-col w-[350px] h-[550px] rounded-xl border border-gray-100 shadow-md overflow-hidden gap-6 pb-6 text-ellipsis">
+    <div className="bg-white flex flex-col w-[350px] h-[600px] rounded-xl border border-gray-100 shadow-md overflow-hidden gap-6 pb-6 text-ellipsis">
       <Image href={challenge.demoHref} src={challenge.imgSrc} />
 
       <div className="px-6 flex flex-col gap-4">
