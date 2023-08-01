@@ -1,6 +1,6 @@
 const Socials = () => {
   return (
-    <div className="fixed w-16 flex flex-col gap-2 items-center left-0 bottom-0">
+    <div className="fixed w-10 sm:w-16 flex flex-col gap-2 items-center left-0 bottom-0">
       {/* PORTFOLIO */}
       <a
         href="https://villeprami.vercel.app/"
