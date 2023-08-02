@@ -42,6 +42,17 @@ export const levelMap = {
 
 export const challenges: Challenge[] = [
   {
+    title: "Advice generator app",
+    languages: [Language.Html, Language.Css, Language.Js, Language.Api],
+    level: Level.Junior,
+    description:
+      "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.",
+    demoHref:
+      "https://frontendmentor-advice-generator-app-tau.vercel.app/",
+    imgSrc: "./advice-generator-app.jpg",
+    tags: ["react", "tailwind-css", "typescript", "vite"],
+  },
+  {
     title: "Newsletter sign-up form with success message",
     languages: [Language.Html, Language.Css, Language.Js],
     level: Level.Junior,
