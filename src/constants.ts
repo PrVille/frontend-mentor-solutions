@@ -1,5 +1,7 @@
 import { Challenge, Language, Level } from "./types"
 
+import calculatorAppImg from "../thumbnails/calculator-app.jpg"
+
 export const languageColorMap = {
   [Language.Html]: "text-html",
   [Language.Css]: "text-css",
@@ -41,6 +43,17 @@ export const levelMap = {
 }
 
 export const challenges: Challenge[] = [
+  {
+    title: "Calculator app",
+    languages: [Language.Html, Language.Css, Language.Js],
+    level: Level.Intermediate,
+    description:
+      "This calculator app will be a great test of your CSS and JS skills especially. If you're wanting to practice using Grid, this challenge will be perfect for you!",
+    demoHref:
+      "https://frontend-mentor-calculator-app-rouge.vercel.app/",
+    imgSrc: calculatorAppImg,
+    tags: ["react", "tailwind-css", "typescript", "vite"],
+  },
   {
     title: "Advice generator app",
     languages: [Language.Html, Language.Css, Language.Js, Language.Api],
