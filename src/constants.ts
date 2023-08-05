@@ -1,6 +1,11 @@
 import { Challenge, Language, Level } from "./types"
 
+import qrCodeComponentImg from "../thumbnails/qr-code-component.jpg"
+import nftPreviewCardComponentImg from "../thumbnails/nft-preview-card-component.jpg"
+import newsletterSignUpFormWithSuccessMessageImg from "../thumbnails/newsletter-sign-up-form-with-success-message.jpg"
+import adviceGeneratorAppImg from "../thumbnails/advice-generator-app.jpg"
 import calculatorAppImg from "../thumbnails/calculator-app.jpg"
+
 
 export const languageColorMap = {
   [Language.Html]: "text-html",
@@ -62,7 +67,7 @@ export const challenges: Challenge[] = [
       "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.",
     demoHref:
       "https://frontendmentor-advice-generator-app-tau.vercel.app/",
-    imgSrc: "./advice-generator-app.jpg",
+    imgSrc: adviceGeneratorAppImg,
     tags: ["react", "tailwind-css", "typescript", "vite"],
   },
   {
@@ -73,7 +78,7 @@ export const challenges: Challenge[] = [
       "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
     demoHref:
       "https://newsletter-sign-up-with-success-message-self.vercel.app/",
-    imgSrc: "./newsletter-sign-up-form-with-success-message.jpg",
+    imgSrc: newsletterSignUpFormWithSuccessMessageImg,
     tags: ["react", "tailwind-css", "typescript", "vite"],
   },
   {
@@ -84,7 +89,7 @@ export const challenges: Challenge[] = [
       "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.",
     demoHref:
       "https://frontendmentor-nft-preview-card-component-pi.vercel.app/",
-    imgSrc: "./nft-preview-card-component.jpg",
+    imgSrc: nftPreviewCardComponentImg,
   },
   {
     title: "QR code component",
@@ -93,6 +98,6 @@ export const challenges: Challenge[] = [
     description:
       "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
     demoHref: "https://frontendmentor-prville-qr-code-component.vercel.app/",
-    imgSrc: "./qr-code-component.jpg",
+    imgSrc: qrCodeComponentImg,
   },
 ]
