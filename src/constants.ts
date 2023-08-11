@@ -5,7 +5,7 @@ import nftPreviewCardComponentImg from "../thumbnails/nft-preview-card-component
 import newsletterSignUpFormWithSuccessMessageImg from "../thumbnails/newsletter-sign-up-form-with-success-message.jpg"
 import adviceGeneratorAppImg from "../thumbnails/advice-generator-app.jpg"
 import calculatorAppImg from "../thumbnails/calculator-app.jpg"
-
+import rockPaperScissorsGameImg from "../thumbnails/rock-paper-scissors-game.jpg"
 
 export const languageColorMap = {
   [Language.Html]: "text-html",
@@ -49,13 +49,22 @@ export const levelMap = {
 
 export const challenges: Challenge[] = [
   {
+    title: "Rock, Paper, Scissors game",
+    languages: [Language.Html, Language.Css, Language.Js],
+    level: Level.Advanced,
+    description:
+      "This challenge will test your HTML, CSS and JavaScript skills. There's even a Rock, Paper, Scissors, Lizard, Spock version if you really want to challenge yourself.",
+    demoHref: "https://frontend-mentor-rock-paper-scissors-self.vercel.app/",
+    imgSrc: rockPaperScissorsGameImg,
+    tags: ["react", "tailwind-css", "typescript", "vite", "jest"],
+  },
+  {
     title: "Calculator app",
     languages: [Language.Html, Language.Css, Language.Js],
     level: Level.Intermediate,
     description:
       "This calculator app will be a great test of your CSS and JS skills especially. If you're wanting to practice using Grid, this challenge will be perfect for you!",
-    demoHref:
-      "https://frontend-mentor-calculator-app-rouge.vercel.app/",
+    demoHref: "https://frontend-mentor-calculator-app-rouge.vercel.app/",
     imgSrc: calculatorAppImg,
     tags: ["react", "tailwind-css", "typescript", "vite"],
   },
@@ -65,8 +74,7 @@ export const challenges: Challenge[] = [
     level: Level.Junior,
     description:
       "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.",
-    demoHref:
-      "https://frontendmentor-advice-generator-app-tau.vercel.app/",
+    demoHref: "https://frontendmentor-advice-generator-app-tau.vercel.app/",
     imgSrc: adviceGeneratorAppImg,
     tags: ["react", "tailwind-css", "typescript", "vite"],
   },
